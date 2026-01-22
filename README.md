@@ -1,6 +1,6 @@
 ChatFlow Realtime API
 
-A production-grade real-time chat backend system built with Node.js, Express, MongoDB, Socket.IO, and Redis-ready architecture, designed with clean architecture principles and scalable backend patterns.
+A production-grade real-time chat backend system built with Node.js, Express, MongoDB, Socket.IO, and designed with clean architecture principles and scalable backend patterns.
 
 This project demonstrates modern backend engineering practices, real-time communication, and secure system design.
 
@@ -23,7 +23,7 @@ Message delivery status (sent, delivered, read)
 
 Typing indicators
 
-Online/Offline presence (Redis-ready design)
+Online/Offline presence
 
 Advanced Messaging
 
@@ -61,8 +61,6 @@ Multer (file uploads)
 
 Crypto-JS (E2EE)
 
-Redis (presence-ready architecture)
-
 Winston Logger
 
 dotenv, cors, uuid
@@ -89,10 +87,18 @@ MONGODB_URL=mongodb://localhost:27017/chatflow
 JWT_SECRET=your_secret
 JWT_EXPIRES_IN=7d
 
-# Optional Redis
-
-REDIS_URL=redis://localhost:6379
+E2E_SECRET= your_Secret
 
 ▶️ Run Project
 npm install
 npm run dev
+
+👨‍💻 Author
+
+Testimony Aduragbemi Gbadegesin
+📍 Abeokuta, Nigeria
+📧 testimonygbadegesin@gmail.com
+
+🔗 GitHub: https://github.com/gbadegesintestimony
+
+🔗 LinkedIn: https://linkedin.com/in/gbadegesin-testimony-757251278/
