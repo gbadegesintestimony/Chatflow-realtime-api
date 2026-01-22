@@ -1,0 +1,31 @@
+{
+  "name": "chatflow-realtime-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Real-time Chat Application",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.4",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
